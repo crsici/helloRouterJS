@@ -1,0 +1,13 @@
+{  
+   "name":"helloJsWorld",
+   "version":"1.0.0",
+   "description":"",
+   "main":"index.js",
+   "author":"trungp",
+   "license":"ISC",
+   "dependencies":{  
+      "router.js":"git://github.com/tildeio/router.js.git#b57acfe68f00a2803dc6fbb1c99bb7e5d042a04e",
+      "requirejs":"*",
+      "jquery":"*"
+   }
+}

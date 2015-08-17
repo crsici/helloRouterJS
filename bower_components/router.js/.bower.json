@@ -1,0 +1,12 @@
+{
+  "name": "router.js",
+  "homepage": "https://github.com/tildeio/router.js",
+  "_release": "b57acfe68f",
+  "_resolution": {
+    "type": "commit",
+    "commit": "b57acfe68f00a2803dc6fbb1c99bb7e5d042a04e"
+  },
+  "_source": "git://github.com/tildeio/router.js.git",
+  "_target": "b57acfe68f00a2803dc6fbb1c99bb7e5d042a04e",
+  "_originalSource": "git://github.com/tildeio/router.js.git"
+}
