@@ -4,13 +4,25 @@
 <meta charset="UTF-8">
 <title>Hello routerJS</title>
 </head>
-
+<style>
+	a{
+		float: left;
+    	width: 100%;
+	}
+</style>
 <body>
-	<div class="hello" id="container">
-		<a href="#/posts/1">/posts/1</a> 
-		<a href="#/posts">posts</a>
-		<a href="#/posts/new">posts/new</a>
-	</div>
+	
+	<a href="#/">Home</a>
+	<p>Example 1</p>
+	<a href="#/posts/1">/posts/1</a>
+	<a href="#/about">about</a>
+	
+	<p>Example 2</p>
+	<a href="#/nests">/nests</a>
+	<a href="#/nests/nest1">/nests/nest1</a>
+	<a href="#/nests/nest2">/nests/nest2</a>
+	
+	<div class="container" id="container"></div>
 	<script src="bower_components/requirejs/require.js" data-main="init.js"></script>
 </body>
 

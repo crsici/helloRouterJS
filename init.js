@@ -1,8 +1,8 @@
 require
 		.config({
-			waitSeconds: 50000,
+			waitSeconds: 20000,
 			baseUrl : ".",
-			deps : [ 'jquery', 'rsvp', 'router', 'routerBootstrap' ],
+			deps : [ 'jquery', 'log', 'rsvp', 'router', 'routerBootstrap2' ],
 			paths : {
 				"router" : "./bower_components/router.js/dist/router.amd",
 				"route-recognizer" : "./bower_components/router.js/vendor/deps/route-recognizer",
@@ -12,6 +12,9 @@ require
 			shim : {
 				'jquery' : {
 					exports : '$'
+				},
+				'log' : {
+					exports : 'log'
 				}
 			}
 
