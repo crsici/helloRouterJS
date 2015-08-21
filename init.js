@@ -2,7 +2,7 @@ require
 		.config({
 			waitSeconds: 20000,
 			baseUrl : ".",
-			deps : [ 'jquery', 'log', 'rsvp', 'router', 'routerBootstrap2' ],
+			deps : [ 'jquery', 'log', 'rsvp', 'router', 'example1' ],
 			paths : {
 				"router" : "./bower_components/router.js/dist/router.amd",
 				"route-recognizer" : "./bower_components/router.js/vendor/deps/route-recognizer",
